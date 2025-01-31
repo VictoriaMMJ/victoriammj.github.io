@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 20px;
+}
+h1,h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+p, ul, h2, div{
+  opacity: 0;
+}
+h1{
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:first-of-type{
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:nth-of-type(2){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:nth-of-type(3){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+p:nth-of-type(4){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+p:nth-of-type(5){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 14s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+p:nth-of-type(6){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 17s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+p:nth-of-type(7){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+p:nth-of-type(8){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 23s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:nth-of-type(9){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 26s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:nth-of-type(10){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 29s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:nth-of-type(11){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 32s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+ul{
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 35s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+p:nth-of-type(12){
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 38s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+h2:first-of-type{
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 41s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+h2:last-of-type{
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 42s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+button{
+
+  background-color: red;
+  color: black;
+  height: 4em;
+  width: 10em;
+  
+}
+div{
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 43s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade-in {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.hide {
+    display: none;
+  }
+  
+
+
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+    font-size: 500px;
+  }

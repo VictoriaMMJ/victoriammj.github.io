@@ -1,0 +1,211 @@
+*{
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+  min-width: 250px;
+}
+  
+.myDIV:hover >.hide {
+  position: absolute;
+  display: block;
+  color: black;
+  background-color: white;
+}
+
+.myDIV{
+  max-width: max-content;
+}
+.superhide{
+  opacity: 0;
+}
+img{
+  width: 2em;
+}
+body{
+  background-color: #dc8888;
+  }
+  
+#map{
+  margin: 0;
+  width: 1200px;
+  height: 1000px;
+  position: absolute;
+}
+#map>img{
+  position: relative;
+  width: 2000px;
+  max-height: 1800px;
+}
+
+#isabella{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+
+#clarissa{
+  position: relative;
+  z-index: 1;
+  bottom: 20%;
+  left: 105%;
+}
+
+
+#church{
+  position: relative;
+  z-index: 1;
+  bottom: 92%;
+  left: 82%;
+  /*Basilica di Santa Croce*/
+}
+
+
+#havenLorenzo{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+
+
+#malkavian{
+  position: relative;
+  z-index: 1;
+  bottom: 91%;
+  left: 97%;
+}
+
+#sherrif{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+
+#lucia{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+
+#galleria{
+  position: relative;
+  z-index: 1;
+  bottom: 86%;
+  left: 87%;
+}
+
+
+#franceso{
+  position: relative;
+  z-index: 1;
+  bottom: 76%;
+  left: 74%;
+}
+
+
+#anarch{
+  position: relative;
+  z-index: 1;
+  bottom: 109%;
+  left: 33%;
+}
+
+#anarchBar{
+  position: relative;
+  z-index: 1;
+  bottom: 100%;
+  left: 0%;
+}
+
+#corridor{
+  position: relative;
+  z-index: 1;
+  bottom: 98%;
+  left: 81%;
+}
+
+#tremereTower{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+#turning{
+  position: relative;
+  z-index: 1;
+  bottom: 100%;
+  left: 0%;
+}
+
+#boat{
+  position: relative;
+  z-index: 1;
+  bottom: 126%;
+  left: 56%;
+}
+
+#elysiumLasom{
+  position: relative;
+  z-index: 1;
+  bottom: 151%;
+  left: 96%;
+  /*Basilicca de San Marco*/
+}
+
+#elysium{
+  position: relative;
+  z-index: 1;
+  bottom: 134%;
+  left: 90%;
+}
+
+#univeristy{
+  position: relative;
+  z-index: 1;
+  bottom: 156%;
+  left: 98%;
+}
+
+#havenCleo{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+#thinBloodSupportGroup{
+  position: relative;
+  z-index: 1;
+  bottom: 100%;
+  left: 0%;
+}
+
+#SIHQ{
+  position: relative;
+  z-index: 1;
+  bottom: 0%;
+  left: 0%;
+}
+
+#gangrel{
+  position: relative;
+  z-index: 1;
+  bottom: 150%;
+  left: 25%;
+}
+
+#theatre{
+  position: relative;
+  z-index: 1;
+  bottom: 158%;
+  left: 102%;
+}
