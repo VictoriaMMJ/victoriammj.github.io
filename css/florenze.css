@@ -209,3 +209,17 @@ body{
   bottom: 158%;
   left: 102%;
 }
+
+#hostel{
+  position: relative;
+  z-index: 1;
+  bottom: 130%;
+  left: 120%;
+}
+
+#speakeasy{
+  position: relative;
+  z-index: 1;
+  bottom: 134%;
+  left: 115%;
+}
