@@ -19,14 +19,14 @@ h1{
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-#first p{
+#first ,#first p , #first ul{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-#second p{
+#second , #second > p{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 5s;
