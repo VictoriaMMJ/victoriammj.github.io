@@ -144,7 +144,7 @@ div{
   text-align: center;
   animation-name: fade-in;
   animation-duration: 2s;
-  animation-delay: 43s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
