@@ -19,21 +19,21 @@ h1{
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-p:first-of-type{
+#first{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-p:nth-of-type(2){
+#second{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-p:nth-of-type(3){
+#third{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 8s;
@@ -41,7 +41,7 @@ p:nth-of-type(3){
   animation-iteration-count: 1;
 }
 
-p:nth-of-type(4){
+#fourth{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 11s;
@@ -49,7 +49,7 @@ p:nth-of-type(4){
   animation-iteration-count: 1;
 }
 
-p:nth-of-type(5){
+#fifth{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 14s;
@@ -57,7 +57,7 @@ p:nth-of-type(5){
   animation-iteration-count: 1;
 }
 
-p:nth-of-type(6){
+#sixth{
   animation-name: fade-in;
   animation-duration: 2s;
   animation-delay: 17s;
@@ -65,6 +65,7 @@ p:nth-of-type(6){
   animation-iteration-count: 1;
 }
 
+/*
 p:nth-of-type(7){
   animation-name: fade-in;
   animation-duration: 2s;
@@ -114,7 +115,7 @@ p:nth-of-type(12){
   animation-delay: 38s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-}
+}*/
 
 h2:first-of-type{
   animation-name: fade-in;
